@@ -17,10 +17,16 @@
 .navbar ul{
     padding-top: 20px;
     padding-bottom: 20px;
-     display: flex;
-     list-style: none;
-     gap: 40px;
-
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.navbar ul li a:hover{
+    width: 100%;
+    color: crimson;
+    transition: 0.7s;
+    bottom: -6px;
+    left: 0;
 }
 .navbar ul i {
     font-size: 20px;

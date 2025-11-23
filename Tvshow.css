@@ -21,6 +21,13 @@
      gap: 40px;
 
 }
+.navbar ul li a:hover{
+    width: 100%;
+    color: crimson;
+    transition: 0.7s;
+    bottom: -6px;
+    left: 0;
+}
 .navbar ul i {
     font-size: 20px;
     margin: 0;
